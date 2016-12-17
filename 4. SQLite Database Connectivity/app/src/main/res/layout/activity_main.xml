@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSERT"
+        android:id="@+id/ins"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/del"
+        android:layout_alignStart="@+id/del"
+        android:layout_marginTop="68dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:id="@+id/del"
+        android:layout_below="@+id/ins"
+        android:layout_alignLeft="@+id/edit"
+        android:layout_alignStart="@+id/edit" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT"
+        android:id="@+id/edit"
+        android:layout_below="@+id/del"
+        android:layout_alignLeft="@+id/disp"
+        android:layout_alignStart="@+id/disp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY"
+        android:id="@+id/disp"
+        android:layout_below="@+id/edit"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
